@@ -7,7 +7,7 @@ This repo supports training on custom datasets in GSM8K-style format (`question`
 
 ---
 
-## 💡 Key Features
+## ❄️ Key Features
 
 -  Efficient fine-tuning with LoRA adapters via Unsloth  
 -  Supports GGUF export for LLaMA.cpp deployment  
