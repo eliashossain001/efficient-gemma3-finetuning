@@ -1,7 +1,7 @@
 
 #  Gemma 3 Fine-Tuning with Unsloth + GRPO
 
-This project demonstrates an efficient and modular pipeline for fine-tuning Google's Gemma 3 (1B) model using [Unsloth](https://github.com/unslothai/unsloth) and GRPO (Generalized Reinforcement Preference Optimization). It includes training, inference, and deployment scripts—ready for integration into production or research workflows.
+This project demonstrates an efficient and modular pipeline for fine-tuning Google's Gemma 3 (1B) model using [Unsloth](https://github.com/unslothai/unsloth) and GRPO (Generalized Reinforcement Preference Optimization). It includes training, inference, and deployment scripts—ready for integration into production phase or research workflows.
 
 This repo supports training on custom datasets in GSM8K-style format (`question` + `#### answer`); simply swap out the dataset loader. It uses parameter-efficient fine-tuning (LoRA) via Unsloth, making it lightweight and suitable for limited compute environments.
 
