@@ -1,6 +1,5 @@
-# === README.md ===
 
-# 🤥 Gemma 3 Fine-Tuning with Unsloth + GRPO
+# 🥰 Gemma 3 Fine-Tuning with Unsloth + GRPO
 
 This project demonstrates an efficient and modular pipeline for fine-tuning Google's Gemma 3 (1B) model using [Unsloth](https://github.com/unslothai/unsloth) and GRPO (Generalized Reinforcement Preference Optimization). It includes training, inference, and deployment scripts—ready for integration into production or research workflows.
 
@@ -8,12 +7,12 @@ This project demonstrates an efficient and modular pipeline for fine-tuning Goog
 
 ## 💡 Key Features
 
-- ✅ Efficient fine-tuning with LoRA adapters via Unsloth  
-- ✅ Supports GGUF export for LLaMA.cpp deployment  
-- ✅ Reward-based optimization using regex and ratio matching  
-- ✅ Clean VS Code-friendly modular structure  
-- ✅ Push-to-HuggingFace automation script  
-- ✅ Lightweight inference wrapper with system prompts
+-  Efficient fine-tuning with LoRA adapters via Unsloth  
+-  Supports GGUF export for LLaMA.cpp deployment  
+-  Reward-based optimization using regex and ratio matching  
+-  Clean VS Code-friendly modular structure  
+-  Push-to-HuggingFace automation script  
+-  Lightweight inference wrapper with system prompts
 
 ---
 
@@ -36,7 +35,7 @@ gemma_finetune/
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### 1. Install dependencies
 
