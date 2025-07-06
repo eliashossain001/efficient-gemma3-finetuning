@@ -1,0 +1,30 @@
+# === configs/config.yaml ===
+# Configuration for training and inference
+model_name: "unsloth/gemma-3-1b-it"
+max_seq_length: 1024
+load_in_4bit: false
+load_in_8bit: false
+full_finetuning: false
+
+lora_config:
+  r: 8
+  alpha: 8
+  dropout: 0
+  bias: "none"
+  random_state: 3407
+
+training:
+  learning_rate: 5e-6
+  weight_decay: 0.1
+  warmup_ratio: 0.1
+  lr_scheduler_type: "cosine"
+  optim: "adamw_torch_fused"
+  batch_size: 1
+  gradient_accumulation_steps: 1
+  max_steps: 50
+  save_steps: 50
+  max_grad_norm: 0.1
+  output_dir: "outputs"
+  logging_steps: 1
+  num_generations: 4
+  report_to: "none"

@@ -1,0 +1,6 @@
+# .gitignore
+outputs/
+unsloth_compiled_cache/
+*.bin
+*.pt
+__pycache__/
